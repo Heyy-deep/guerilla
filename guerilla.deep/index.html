@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guerilla.deep | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <div class="bg-glow"></div>
+    <div class="bg-glow secondary"></div>
+
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">guerilla<span>.deep</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact" class="btn-primary">Say Hello</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <span class="badge">Built for the open road 🏍️</span>
+                <h1 class="hero-title">
+                    Stay <span class="gradient-text">Cool.</span><br>
+                    Build <span class="gradient-text-alt">Awesome.</span>
+                </h1>
+                <p class="hero-subtitle">Premium digital experiences built for the modern web. We rev up engines and break boundaries with our design.</p>
+                <div class="hero-actions">
+                    <a href="#work" class="btn-primary large">View Projects</a>
+                    <a href="#about" class="btn-secondary large">Get to know us</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="./assets/bike_img.jpg" alt="Yellow Ribbon Royal Enfield Guerrilla 450 back view" class="hero-img float-animation">
+                <div class="hero-image-shadow"></div>
+            </div>
+        </section>
+
+        <section id="about" class="bento-section">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">DNA</span></h2>
+                <p>What makes our igloo so cool.</p>
+            </div>
+            
+            <div class="bento-grid">
+                <div class="bento-card col-span-2 primary-card">
+                    <h3>Design First</h3>
+                    <p>We believe aesthetics drive functionality. Every pixel is placed with intent, creating interfaces that aren't just usable—they are joyful.</p>
+                </div>
+                <div class="bento-card">
+                    <div class="icon-wrapper">🚀</div>
+                    <h3>Fast</h3>
+                    <p>Optimized for speed and smooth 60fps animations.</p>
+                </div>
+                <div class="bento-card">
+                    <div class="icon-wrapper">🧊</div>
+                    <h3>Cool</h3>
+                    <p>Fresh ideas for a freezing digital landscape.</p>
+                </div>
+                <div class="bento-card col-span-2">
+                    <h3>Future Proof</h3>
+                    <p>Using the latest tech stacks to ensure your project doesn't melt away when the seasons change.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work-section">
+            <div class="section-header center">
+                <h2>Featured <span class="gradient-text">Work</span></h2>
+            </div>
+            <div class="work-grid">
+                <a href="#" class="work-card">
+                    <div class="work-card-inner">
+                        <div class="project-tag">Web3 App</div>
+                        <h3>Penguin Protocol</h3>
+                    </div>
+                </a>
+                <a href="#" class="work-card">
+                    <div class="work-card-inner">
+                        <div class="project-tag">E-Commerce</div>
+                        <h3>Frosty Kicks</h3>
+                    </div>
+                </a>
+                <a href="#" class="work-card">
+                    <div class="work-card-inner">
+                        <div class="project-tag">SaaS Platform</div>
+                        <h3>Icebox Analytics</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-cta">
+                <h2>Ready to hit the <span class="gradient-text">Road?</span></h2>
+                <a href="mailto:hello@guerilla.deep" class="btn-primary large">Let's ride!</a>
+            </div>
+            <div class="footer-bottom">
+                <div class="logo">guerilla<span>.deep</span></div>
+                <p>&copy; 2026 guerilla.deep - Ride Hard.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
